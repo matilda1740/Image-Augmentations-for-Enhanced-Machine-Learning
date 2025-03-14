@@ -50,20 +50,26 @@ Image-Augmentations-for-Enhanced-Machine-Learning/
 
 ```
 
-## 🚀 INSTALLATION
+## 🚀 INSTALLATION ---- GUIDE FOR VISUAL STUDIO CODE
 
-### 1. Clone the Repository
+### 1. Initialize your GitHub repository
+
+```sh
+git init
+```
+
+### 2. Clone the Repository
 
 ```sh
 git clone https://github.com/matilda1740/Image-Augmentations-for-Enhanced-Machine-Learning.git
 ```
-### 2. Create Virtual Environment (optional) - on Mac
+### 3. Create Virtual Environment (optional) - on Mac
 ```sh
-python -m venv env
-source env/bin/activate
+python -m venv .venv
+source .venv/bin/activate
 ```
 
-### 3. Install the Dependencies from requirements.txt File
+### 4. Install the Dependencies from requirements.txt File
 ```sh
 pip install -r requirements.txt
 ```
@@ -78,10 +84,19 @@ python scripts/train.py
 1. **Augmented models showed better generalization.**
 2. **Loss curves indicated reduced overfitting with augmentation.**
 3. **Final accuracy comparison:**
-    1. **Without Augmentation: ~72%**
-    2. **With Augmentation: ~78%**
+    1. **Without Augmentation: ~69.52%**
+    2. **With Augmentation: ~69.60%**
 
 ## 🖼️ VISUALIZATION 
 
 1. **Original Vs Augmented Images**
 2. **Training Loss Curves for Evaluation**
+
+## 🤝 Contributing
+We welcome contributions! To contribute:
+
+Fork the repository.
+Create a new branch for your feature (git checkout -b feature-name).
+Commit your changes (git commit -m "Added feature X").
+Push to your branch (git push origin feature-name).
+Open a Pull Request.
