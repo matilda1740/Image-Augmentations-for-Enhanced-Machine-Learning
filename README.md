@@ -55,7 +55,7 @@ Image-Augmentations-for-Enhanced-Machine-Learning/
 ### 1. Clone the Repository
 
 ```sh
-https://github.com/matilda1740/Image-Augmentations-for-Enhanced-Machine-Learning.git
+git clone https://github.com/matilda1740/Image-Augmentations-for-Enhanced-Machine-Learning.git
 ```
 ### 2. Create Virtual Environment (optional) - on Mac
 ```sh
